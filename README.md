@@ -1,6 +1,11 @@
 # EFK - Aggregate logging test harness
 
-**Requires:** [https://github.com/openshift/openshift-ansible]
+This is a test tool and it is not meant to be used on production clusters.
+It behaves like a very basic Chaos Monkey for docker. Requires ssh-access only.
+
+
+**UPDATE: As of OpenShift v3.4, the logging stack should be installed via Ansible.**
+
 
 As root:
 ```
